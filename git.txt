@@ -1,0 +1,86 @@
+1.git add .
+2.git commit -m 'v'
+3.git branch vte_2.0.3
+4.git checkout vte_2.0.3
+5. git remote add origin https://codeup.aliyun.com/61358b3103e1c17d57a6755d/vte/vte_smart_2.0.1.git
+6.git pull origin master:brantest   远程master分支与本地brantest分支合并
+7.git push --set-upstream origin vte_2.0.2
+8.git push origin2 vte_2.0.3
+9.git log
+git reset –mixed：此为默认方式，不带任何参数的git reset，即时这种方式，它回退到某个版本，只保留源码，回退commit和index信息　
+git clone -b <指定分支> https://github.com/521/springboot-rabbitmq.git
+
+===================================分界线=================
+
+
+origin2 卒中视界java
+origin10 卒中视界 vue
+origin4 vte zhangzhou java
+//错误origin5 vte vte_smart_2.0 java
+origin6 厦门VTE
+==========================分界线===============================
+
+忽略文件 只提交指定文件
+git add src/xxxxxxxx 添加需要提交的文件名（加路径–参考git status打印出来的路径）
+git stash -u -k 忽略其他文件，把现修改的隐藏起来，这样提交的时候就不会提交未被add的文件；
+git commit -m ‘fix：xxxxxxxx’；
+git pull origin master:brantest   远程master分支与本地brantest分支合并 拉去合并
+git push origin2 vte_2.0.3 推送到远程仓库
+git stash pop 恢复之前忽略的文件
+
+=================分界线=================================================
+如果暂时没有东西要提交，可以这样更新代码：
+
+1. git stash  把所有修改过的代码放进储藏里
+
+2. git pull origin dev  更新远端仓库代码
+
+3. git stash pop  恢复之前储藏的文件
+
+4. 好了，本地可以继续开发了...
+
+第一步：右键项目名称->git->repository-> stash changes   然后填信息就可以备份了
+
+第二步：右键项目名称->git->repository->pull
+
+第三步：右键项目名称->git->repository->unstash changes 
+
+第三步中可能出现Your local changes would be overwritten by merge等等情况，是因为你更pull下来的文件中你在本地保存之前有修改，
+
+出现这种情况，点击Your local changes would be overwritten by merge下面的view，一个文件一个文件的选择，选择的时候有三个文件，
+
+左中右，中是结果文件，左是pull下来大的文件，右是自己本地修改的文件，如果要用pull下来的文件，则选择accept left,如果要保存本地修改的，则选择accept right即可
+
+
+
+
+
+
+    功能分支：
+
+    格式：feature/功能名称
+
+    例如：feature/loginbug
+
+    修复分支：
+
+    格式：bugfix/bug名称
+
+    例如：bugfix/add-user
+
+    紧急bug修复分支：
+
+    格式：hotfix/bug名称
+
+    例如：hotfix/delete
+
+    预发布分支：
+
+    格式：release/预发布版本名称
+
+    例如：release/add-user
+
+https://codeup.aliyun.com/61358b3103e1c17d57a6755d/apoplexy-sight/apoplexy-sight.git
+
+https://codeup.aliyun.com/61358b3103e1c17d57a6755d/apoplexy-sight/apoplexy-sight.git
+

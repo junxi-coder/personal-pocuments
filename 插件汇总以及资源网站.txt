@@ -1,0 +1,14 @@
+Alibaba Java Coding Guidelines 代码规范
+Easy Javadoc https://plugins.jetbrains.com/plugin/12977-easy-javadoc/versions 注释
+https://unbug.github.io/codelf/#selectPatient 命名网站
+https://www.matools.com/api/java8  jdk8包在线文档
+
+{
+https://juejin.cn/book/6844733738119593991/section/6844733738270588942   参考书籍
+https://gitee.com/geogleicoder/im  基于netty 和 redis 开发的一个IM即时通讯系统
+}
+
+
+insomnia 发送restful风格的请求调试工具
+
+sentinel 服务保护技术
